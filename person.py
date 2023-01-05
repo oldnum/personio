@@ -60,11 +60,11 @@ def upd():
     except Exception as exc:
         print(f'Exception : {str(exc)}')
         exit()
-# upd()
+upd()
 used = input("num lock: ")
 if used=='0':
     try:
-        # upd()
+        upd()
         os.system('clear || cls')
         print(logo)
         print('The number of photos taken:')
@@ -97,11 +97,11 @@ elif used=='1':
     p1.join()
     p2.join()
 elif used == '2':
-   # upd()
+   upd()
     os.system('clear || cls')
     print(logo)
     print(info_help)
-    print(f"""# launch\n  python3 bank.py\n\n# Helping:\n[>] Telegram    : {meta['telegram']}\n """,dot_info)
+    print(f"""# launch\n  python3 person.py\n\n# Helping:\n[>] Telegram    : {meta['telegram']}\n """,dot_info)
 
     exit()
 else:
