@@ -1,7 +1,7 @@
 ## About
 Personio - universal phishing for obtaining a photo of a person's face.
 
-![logo](https://imgur.com/pNAne81)
+![logo](https://i.imgur.com/pNAne81.png)
 
 Main menu details:
 Details:
@@ -10,7 +10,7 @@ Details:
 *  [1] -> [ports] - Port on which the program will run
 *  [1] -> [redirect] - sink/site to which the user will be redirected after entering data
 * [2] Helping - pro help to use
-#  cardesc v.3.5
+#  personio v.2.0
     apt update && apt upgrade
     git clone https://github.com/oldnum/pesonio
     cd personio
