@@ -71,7 +71,7 @@ if used=='0':
         os.system(' find IMAGE-FACE/. -type f | wc -l')
     except:
         print(f'\n[>]New Update Available : {gh_version}')
-        print(' |--> Please install     : https://github.com/oldnum/cardesc')
+        print(' |--> Please install     : https://github.com/oldnum/personio')
         print(f'[>]New Update Available : {gh_version}')
         exit()
 
