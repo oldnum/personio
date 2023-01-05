@@ -97,7 +97,7 @@ elif used=='1':
     p1.join()
     p2.join()
 elif used == '2':
-   upd()
+    upd()
     os.system('clear || cls')
     print(logo)
     print(info_help)
