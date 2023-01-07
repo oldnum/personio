@@ -6,8 +6,6 @@ import json
 import requests
 
 os.system('clear || cls')
-with open("dist/location.location", 'w') as loca:
-    loca.write("https://google.com")
 with open("dist/log.log", 'w') as log:
     pass
 
@@ -80,12 +78,6 @@ elif used=='1':
         ports = int(input("ports: "))
     except:
         ports=8080
-    reloc = input("redirect or (enter): ")
-    if (reloc == ""):
-        pass
-    else:
-        with open("dist/location.location", 'w') as loca:
-            loca.write(reloc)
     a = A()
     b = B()
 
